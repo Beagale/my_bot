@@ -8,8 +8,5 @@
 
     <xacro:include filename="gazebo_control.xacro" />
 
-    <!-- IF USING GAZEBO CLASSIC
-    <xacro:include filename="gazebo_classic_control.xacro" />
-    -->
 
 </robot>
