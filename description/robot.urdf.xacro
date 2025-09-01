@@ -6,10 +6,14 @@
 
     <xacro:include filename="robot_core.xacro" />
 
-    <xacro:include filename="gazebo_control.xacro" />
+    <!-- commented out from ros2_control tutorial -->
+    <!-- <xacro:include filename="gazebo_control.xacro" /> --> 
+    <xacro:include filename="ros2_control.xacro" />
 
     <xacro:include filename="lidar.xacro" />
 
     <xacro:include filename="camera.xacro" />
+
+
 
 </robot>
