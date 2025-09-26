@@ -1,4 +1,7 @@
 ## From Abby
+
+(As of September 22nd, check commit history for newest changes)
+
 Skipped over the following 3 tutorials, so code written from these tutorials might be missing atm:
 
 (Using ros2_control to drive robot (off the edge of the table)): https://www.youtube.com/watch?v=4VVrTCnxvSw&list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT&index=14
