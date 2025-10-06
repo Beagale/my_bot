@@ -34,7 +34,7 @@
             <param name="device">/dev/ttyUSB0</param>
             <param name="baud_rate">57600</param>
             <param name="timeout">1000</param>
-            <param name="enc_counts_per_rev">1</param> <!-- TEST Put encoder counts as 1 -->
+            <param name="enc_counts_per_rev">4233</param> <!-- TEST Put encoder count for smaller test motor -->
         </hardware>
         <joint name="left_wheel_joint">
             <command_interface name="velocity">
