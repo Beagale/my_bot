@@ -24,7 +24,7 @@ diff_cont:
     use_stamped_vel: false
 
     # TEST!
-    open_loop: true
+    # open_loop: true
     # open_loop: false    
 
     # wheels_per_side: x
