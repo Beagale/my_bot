@@ -7,11 +7,8 @@
             <!-- Wheel Information -->
             <left_joint>left_wheel_joint</left_joint>
             <right_joint>right_wheel_joint</right_joint>
-            <!--WHEEL SEPARATION ORIGINALLY 0.35-->
-            <!--NOTE: THESE VALUES ACTUALLY DON'T LINE UP WITH my_controllers.yaml, but might not matter as this is for Gazebo-->
-            <wheel_separation>0.297</wheel_separation>
-            <!--WHEEL DIAMETER ORIGINALLY 0.1-->
-            <wheel_diameter>0.066</wheel_diameter>
+            <wheel_separation>0.4035</wheel_separation>
+            <wheel_diameter>0.0375</wheel_diameter>
 
 
             <!-- Limits -->
