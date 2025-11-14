@@ -28,6 +28,6 @@ follow_ball:
     # angular_chase_multiplier: 0.7
     # forward_chase_speed: 0.01 # 0.1
     search_angular_speed: 0.03
-    search_duration : 27.2 # for going straight (not at a corner) 25.12. otherwise 27.2
+    # search_duration : 27.825 # for going straight (not at a corner) 25.12. otherwise 27.2
     max_size_thresh: 0.2
     filter_value: 0.9
