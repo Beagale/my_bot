@@ -1,15 +1,15 @@
 detect_ball:
   ros__parameters:
     # tuning_mode: false # Could set this here but leave it off so it can be easily set by the launch script
-    x_min: 0
-    x_max: 100
+    x_min: 38
+    x_max: 69
     y_min: 0
     y_max: 100
-    h_min: 24
-    h_max: 37
-    s_min: 84
+    h_min: 26
+    h_max: 59
+    s_min: 163
     s_max: 255
-    v_min: 110
+    v_min: 51
     v_max: 255
     sz_min: 1
     sz_max: 100
@@ -17,7 +17,7 @@ detect_ball:
 detect_ball_3d:
   ros__parameters:
     h_fov: 1.089
-    ball_radius: 0.033
+    ball_radius: 0.05 # 0.033
     camera_frame: "camera_link_optical"
 
 
@@ -27,7 +27,7 @@ follow_ball:
     rcv_timeout_secs: 1.0
     # angular_chase_multiplier: 0.7
     # forward_chase_speed: 0.01 # 0.1
-    search_angular_speed: 0.03
+    # search_angular_speed: 0.03
     # search_duration : 27.825 # for going straight (not at a corner) 25.12. otherwise 27.2
     max_size_thresh: 0.2
     filter_value: 0.9
