@@ -5,9 +5,9 @@ detect_ball:
     x_max: 69
     y_min: 0
     y_max: 100
-    h_min: 26
-    h_max: 59
-    s_min: 163
+    h_min: 0
+    h_max: 61
+    s_min: 104
     s_max: 255
     v_min: 51
     v_max: 255
